@@ -1,0 +1,21 @@
+import { IsOptional, IsString, IsNumber, IsEnum } from "class-validator";
+import { Category } from "../schemas/product.schema";
+
+export class UpdateProductDto {
+
+    @IsOptional()
+    @IsString()
+    readonly name: string;
+
+    @IsOptional()
+    @IsString()
+    readonly description: string;
+
+    @IsOptional()
+    @IsEnum(Category, { message: "Please enter correct category." })
+    readonly category: Category;
+
+    @IsOptional()
+    @IsNumber()
+    readonly price: number;
+}
