@@ -1,4 +1,4 @@
-## Packages Used for MongoDB connection
+## Packages Used
 
 ```bash
     "dependencies": {
