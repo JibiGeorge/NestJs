@@ -7,10 +7,9 @@
         "mongoose": "^7.5.2",
         "class-validator": "^0.14.0",
         "class-transformer": "^0.5.1",
-        "@nestjs/jwt": "^10.1.1",
         "@nestjs/passport": "^10.0.2",
-        "passport": "^0.6.0",
-        "passport-local": "^1.0.0"
+        "@nestjs/jwt": "^10.1.1",
+        "bcryptjs": "^2.4.3"
     }
 ```
 
